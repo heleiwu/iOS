@@ -28,6 +28,20 @@
 		0030B0C719BC1BA40000CBC4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0030B0AB19BC1BA40000CBC4 /* CoreData.framework */; };
 		0030B0CF19BC1BA40000CBC4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0030B0CD19BC1BA40000CBC4 /* InfoPlist.strings */; };
 		0030B0D119BC1BA40000CBC4 /* WhatPhotoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0030B0D019BC1BA40000CBC4 /* WhatPhotoTests.m */; };
+		AA6C1EB419BDD12C002102FA /* CustomAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6C1EB119BDD12C002102FA /* CustomAlertView.m */; };
+		AA6C1EB519BDD12C002102FA /* UIButton+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6C1EB319BDD12C002102FA /* UIButton+Badge.m */; };
+		AA6C1EC019BDD307002102FA /* alert-window.png in Resources */ = {isa = PBXBuildFile; fileRef = AA6C1EB719BDD307002102FA /* alert-window.png */; };
+		AA6C1EC119BDD307002102FA /* alert-window@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA6C1EB819BDD307002102FA /* alert-window@2x.png */; };
+		AA6C1EC219BDD307002102FA /* camera_flash_auto.png in Resources */ = {isa = PBXBuildFile; fileRef = AA6C1EB919BDD307002102FA /* camera_flash_auto.png */; };
+		AA6C1EC319BDD307002102FA /* camera_flash_off.png in Resources */ = {isa = PBXBuildFile; fileRef = AA6C1EBA19BDD307002102FA /* camera_flash_off.png */; };
+		AA6C1EC419BDD307002102FA /* camera_flash_on.png in Resources */ = {isa = PBXBuildFile; fileRef = AA6C1EBB19BDD307002102FA /* camera_flash_on.png */; };
+		AA6C1EC519BDD307002102FA /* camera_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AA6C1EBC19BDD307002102FA /* camera_icon.png */; };
+		AA6C1EC619BDD307002102FA /* camera_mode.png in Resources */ = {isa = PBXBuildFile; fileRef = AA6C1EBD19BDD307002102FA /* camera_mode.png */; };
+		AA6C1EC719BDD307002102FA /* camera_set.png in Resources */ = {isa = PBXBuildFile; fileRef = AA6C1EBE19BDD307002102FA /* camera_set.png */; };
+		AA6C1EC819BDD307002102FA /* cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = AA6C1EBF19BDD307002102FA /* cancel.png */; };
+		AA6C1ECC19BDD31F002102FA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA6C1EC919BDD31F002102FA /* Default-568h@2x.png */; };
+		AA6C1ECD19BDD31F002102FA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AA6C1ECA19BDD31F002102FA /* Default.png */; };
+		AA6C1ECE19BDD31F002102FA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA6C1ECB19BDD31F002102FA /* Default@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +82,22 @@
 		0030B0CC19BC1BA40000CBC4 /* WhatPhotoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WhatPhotoTests-Info.plist"; sourceTree = "<group>"; };
 		0030B0CE19BC1BA40000CBC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0030B0D019BC1BA40000CBC4 /* WhatPhotoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhatPhotoTests.m; sourceTree = "<group>"; };
+		AA6C1EB019BDD12C002102FA /* CustomAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomAlertView.h; path = Camera/CustomAlertView.h; sourceTree = "<group>"; };
+		AA6C1EB119BDD12C002102FA /* CustomAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomAlertView.m; path = Camera/CustomAlertView.m; sourceTree = "<group>"; };
+		AA6C1EB219BDD12C002102FA /* UIButton+Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+Badge.h"; path = "Camera/UIButton+Badge.h"; sourceTree = "<group>"; };
+		AA6C1EB319BDD12C002102FA /* UIButton+Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Badge.m"; path = "Camera/UIButton+Badge.m"; sourceTree = "<group>"; };
+		AA6C1EB719BDD307002102FA /* alert-window.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alert-window.png"; sourceTree = "<group>"; };
+		AA6C1EB819BDD307002102FA /* alert-window@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alert-window@2x.png"; sourceTree = "<group>"; };
+		AA6C1EB919BDD307002102FA /* camera_flash_auto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_flash_auto.png; sourceTree = "<group>"; };
+		AA6C1EBA19BDD307002102FA /* camera_flash_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_flash_off.png; sourceTree = "<group>"; };
+		AA6C1EBB19BDD307002102FA /* camera_flash_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_flash_on.png; sourceTree = "<group>"; };
+		AA6C1EBC19BDD307002102FA /* camera_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_icon.png; sourceTree = "<group>"; };
+		AA6C1EBD19BDD307002102FA /* camera_mode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_mode.png; sourceTree = "<group>"; };
+		AA6C1EBE19BDD307002102FA /* camera_set.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_set.png; sourceTree = "<group>"; };
+		AA6C1EBF19BDD307002102FA /* cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancel.png; sourceTree = "<group>"; };
+		AA6C1EC919BDD31F002102FA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AA6C1ECA19BDD31F002102FA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AA6C1ECB19BDD31F002102FA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +184,7 @@
 		0030B0AD19BC1BA40000CBC4 /* WhatPhoto */ = {
 			isa = PBXGroup;
 			children = (
+				AA6C1EA819BDD048002102FA /* Camera */,
 				002F2C6E19BD4B0600416F0C /* UIEx */,
 				002F2C6819BD4ACB00416F0C /* ViewControllers */,
 				0030B0B619BC1BA40000CBC4 /* WhatPhotoDelegate.h */,
@@ -168,6 +199,10 @@
 		0030B0AE19BC1BA40000CBC4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AA6C1EC919BDD31F002102FA /* Default-568h@2x.png */,
+				AA6C1ECA19BDD31F002102FA /* Default.png */,
+				AA6C1ECB19BDD31F002102FA /* Default@2x.png */,
+				AA6C1EB619BDD307002102FA /* image */,
 				0030B0AF19BC1BA40000CBC4 /* WhatPhoto-Info.plist */,
 				0030B0B019BC1BA40000CBC4 /* InfoPlist.strings */,
 				0030B0B319BC1BA40000CBC4 /* main.m */,
@@ -192,6 +227,33 @@
 				0030B0CD19BC1BA40000CBC4 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA6C1EA819BDD048002102FA /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				AA6C1EB019BDD12C002102FA /* CustomAlertView.h */,
+				AA6C1EB119BDD12C002102FA /* CustomAlertView.m */,
+				AA6C1EB219BDD12C002102FA /* UIButton+Badge.h */,
+				AA6C1EB319BDD12C002102FA /* UIButton+Badge.m */,
+			);
+			name = Camera;
+			sourceTree = "<group>";
+		};
+		AA6C1EB619BDD307002102FA /* image */ = {
+			isa = PBXGroup;
+			children = (
+				AA6C1EB719BDD307002102FA /* alert-window.png */,
+				AA6C1EB819BDD307002102FA /* alert-window@2x.png */,
+				AA6C1EB919BDD307002102FA /* camera_flash_auto.png */,
+				AA6C1EBA19BDD307002102FA /* camera_flash_off.png */,
+				AA6C1EBB19BDD307002102FA /* camera_flash_on.png */,
+				AA6C1EBC19BDD307002102FA /* camera_icon.png */,
+				AA6C1EBD19BDD307002102FA /* camera_mode.png */,
+				AA6C1EBE19BDD307002102FA /* camera_set.png */,
+				AA6C1EBF19BDD307002102FA /* cancel.png */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,10 +331,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA6C1ECE19BDD31F002102FA /* Default@2x.png in Resources */,
+				AA6C1EC219BDD307002102FA /* camera_flash_auto.png in Resources */,
+				AA6C1EC719BDD307002102FA /* camera_set.png in Resources */,
+				AA6C1EC519BDD307002102FA /* camera_icon.png in Resources */,
+				AA6C1EC019BDD307002102FA /* alert-window.png in Resources */,
+				AA6C1ECD19BDD31F002102FA /* Default.png in Resources */,
 				0030B0B219BC1BA40000CBC4 /* InfoPlist.strings in Resources */,
+				AA6C1ECC19BDD31F002102FA /* Default-568h@2x.png in Resources */,
+				AA6C1EC619BDD307002102FA /* camera_mode.png in Resources */,
+				AA6C1EC419BDD307002102FA /* camera_flash_on.png in Resources */,
 				002F2C6D19BD4ACB00416F0C /* MainMenuViewController.xib in Resources */,
+				AA6C1EC819BDD307002102FA /* cancel.png in Resources */,
 				002F2C7E19BD8DAD00416F0C /* PhotoEditingViewController.xib in Resources */,
 				0030B0BD19BC1BA40000CBC4 /* Images.xcassets in Resources */,
+				AA6C1EC119BDD307002102FA /* alert-window@2x.png in Resources */,
+				AA6C1EC319BDD307002102FA /* camera_flash_off.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,8 +368,10 @@
 				002F2C7D19BD8DAD00416F0C /* PhotoEditingViewController.m in Sources */,
 				002F2C6C19BD4ACB00416F0C /* MainMenuViewController.m in Sources */,
 				0030B0BB19BC1BA40000CBC4 /* WhatPhoto.xcdatamodeld in Sources */,
+				AA6C1EB519BDD12C002102FA /* UIButton+Badge.m in Sources */,
 				0030B0B819BC1BA40000CBC4 /* WhatPhotoDelegate.m in Sources */,
 				0030B0B419BC1BA40000CBC4 /* main.m in Sources */,
+				AA6C1EB419BDD12C002102FA /* CustomAlertView.m in Sources */,
 				002F2C7119BD4B4900416F0C /* UIView+RoundCorner.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
