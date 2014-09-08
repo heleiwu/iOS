@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		002F2C6C19BD4ACB00416F0C /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 002F2C6A19BD4ACB00416F0C /* MainMenuViewController.m */; };
+		002F2C6D19BD4ACB00416F0C /* MainMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 002F2C6B19BD4ACB00416F0C /* MainMenuViewController.xib */; };
+		002F2C7119BD4B4900416F0C /* UIView+RoundCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 002F2C7019BD4B4900416F0C /* UIView+RoundCorner.m */; };
+		002F2C7D19BD8DAD00416F0C /* PhotoEditingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 002F2C7B19BD8DAD00416F0C /* PhotoEditingViewController.m */; };
+		002F2C7E19BD8DAD00416F0C /* PhotoEditingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 002F2C7C19BD8DAD00416F0C /* PhotoEditingViewController.xib */; };
+		002F2C8019BD977700416F0C /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002F2C7F19BD977700416F0C /* CoreImage.framework */; };
+		0030B0A619BC1BA30000CBC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0030B0A519BC1BA30000CBC4 /* Foundation.framework */; };
+		0030B0A819BC1BA30000CBC4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0030B0A719BC1BA30000CBC4 /* CoreGraphics.framework */; };
+		0030B0AA19BC1BA40000CBC4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0030B0A919BC1BA40000CBC4 /* UIKit.framework */; };
+		0030B0AC19BC1BA40000CBC4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0030B0AB19BC1BA40000CBC4 /* CoreData.framework */; };
+		0030B0B219BC1BA40000CBC4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0030B0B019BC1BA40000CBC4 /* InfoPlist.strings */; };
+		0030B0B419BC1BA40000CBC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0030B0B319BC1BA40000CBC4 /* main.m */; };
+		0030B0B819BC1BA40000CBC4 /* WhatPhotoDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0030B0B719BC1BA40000CBC4 /* WhatPhotoDelegate.m */; };
+		0030B0BB19BC1BA40000CBC4 /* WhatPhoto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0030B0B919BC1BA40000CBC4 /* WhatPhoto.xcdatamodeld */; };
+		0030B0BD19BC1BA40000CBC4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0030B0BC19BC1BA40000CBC4 /* Images.xcassets */; };
+		0030B0C419BC1BA40000CBC4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0030B0C319BC1BA40000CBC4 /* XCTest.framework */; };
+		0030B0C519BC1BA40000CBC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0030B0A519BC1BA30000CBC4 /* Foundation.framework */; };
+		0030B0C619BC1BA40000CBC4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0030B0A919BC1BA40000CBC4 /* UIKit.framework */; };
+		0030B0C719BC1BA40000CBC4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0030B0AB19BC1BA40000CBC4 /* CoreData.framework */; };
+		0030B0CF19BC1BA40000CBC4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0030B0CD19BC1BA40000CBC4 /* InfoPlist.strings */; };
+		0030B0D119BC1BA40000CBC4 /* WhatPhotoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0030B0D019BC1BA40000CBC4 /* WhatPhotoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0030B0C819BC1BA40000CBC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0030B09A19BC1BA30000CBC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0030B0A119BC1BA30000CBC4;
+			remoteInfo = WhatPhoto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		002F2C6919BD4ACB00416F0C /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
+		002F2C6A19BD4ACB00416F0C /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
+		002F2C6B19BD4ACB00416F0C /* MainMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenuViewController.xib; sourceTree = "<group>"; };
+		002F2C6F19BD4B4900416F0C /* UIView+RoundCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RoundCorner.h"; sourceTree = "<group>"; };
+		002F2C7019BD4B4900416F0C /* UIView+RoundCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RoundCorner.m"; sourceTree = "<group>"; };
+		002F2C7A19BD8DAD00416F0C /* PhotoEditingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoEditingViewController.h; sourceTree = "<group>"; };
+		002F2C7B19BD8DAD00416F0C /* PhotoEditingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoEditingViewController.m; sourceTree = "<group>"; };
+		002F2C7C19BD8DAD00416F0C /* PhotoEditingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoEditingViewController.xib; sourceTree = "<group>"; };
+		002F2C7F19BD977700416F0C /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		0030B0A219BC1BA30000CBC4 /* WhatPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0030B0A519BC1BA30000CBC4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0030B0A719BC1BA30000CBC4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0030B0A919BC1BA40000CBC4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0030B0AB19BC1BA40000CBC4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0030B0AF19BC1BA40000CBC4 /* WhatPhoto-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WhatPhoto-Info.plist"; sourceTree = "<group>"; };
+		0030B0B119BC1BA40000CBC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0030B0B319BC1BA40000CBC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0030B0B519BC1BA40000CBC4 /* WhatPhoto-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WhatPhoto-Prefix.pch"; sourceTree = "<group>"; };
+		0030B0B619BC1BA40000CBC4 /* WhatPhotoDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhatPhotoDelegate.h; sourceTree = "<group>"; };
+		0030B0B719BC1BA40000CBC4 /* WhatPhotoDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhatPhotoDelegate.m; sourceTree = "<group>"; };
+		0030B0BA19BC1BA40000CBC4 /* WhatPhoto.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WhatPhoto.xcdatamodel; sourceTree = "<group>"; };
+		0030B0BC19BC1BA40000CBC4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0030B0C219BC1BA40000CBC4 /* WhatPhotoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatPhotoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0030B0C319BC1BA40000CBC4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0030B0CC19BC1BA40000CBC4 /* WhatPhotoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WhatPhotoTests-Info.plist"; sourceTree = "<group>"; };
+		0030B0CE19BC1BA40000CBC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0030B0D019BC1BA40000CBC4 /* WhatPhotoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhatPhotoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0030B09F19BC1BA30000CBC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002F2C8019BD977700416F0C /* CoreImage.framework in Frameworks */,
+				0030B0A819BC1BA30000CBC4 /* CoreGraphics.framework in Frameworks */,
+				0030B0AC19BC1BA40000CBC4 /* CoreData.framework in Frameworks */,
+				0030B0AA19BC1BA40000CBC4 /* UIKit.framework in Frameworks */,
+				0030B0A619BC1BA30000CBC4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0030B0BF19BC1BA40000CBC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0030B0C419BC1BA40000CBC4 /* XCTest.framework in Frameworks */,
+				0030B0C719BC1BA40000CBC4 /* CoreData.framework in Frameworks */,
+				0030B0C619BC1BA40000CBC4 /* UIKit.framework in Frameworks */,
+				0030B0C519BC1BA40000CBC4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		002F2C6819BD4ACB00416F0C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				002F2C7A19BD8DAD00416F0C /* PhotoEditingViewController.h */,
+				002F2C7B19BD8DAD00416F0C /* PhotoEditingViewController.m */,
+				002F2C7C19BD8DAD00416F0C /* PhotoEditingViewController.xib */,
+				002F2C6919BD4ACB00416F0C /* MainMenuViewController.h */,
+				002F2C6A19BD4ACB00416F0C /* MainMenuViewController.m */,
+				002F2C6B19BD4ACB00416F0C /* MainMenuViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		002F2C6E19BD4B0600416F0C /* UIEx */ = {
+			isa = PBXGroup;
+			children = (
+				002F2C6F19BD4B4900416F0C /* UIView+RoundCorner.h */,
+				002F2C7019BD4B4900416F0C /* UIView+RoundCorner.m */,
+			);
+			path = UIEx;
+			sourceTree = "<group>";
+		};
+		0030B09919BC1BA30000CBC4 = {
+			isa = PBXGroup;
+			children = (
+				0030B0AD19BC1BA40000CBC4 /* WhatPhoto */,
+				0030B0CA19BC1BA40000CBC4 /* WhatPhotoTests */,
+				0030B0A419BC1BA30000CBC4 /* Frameworks */,
+				0030B0A319BC1BA30000CBC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0030B0A319BC1BA30000CBC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0030B0A219BC1BA30000CBC4 /* WhatPhoto.app */,
+				0030B0C219BC1BA40000CBC4 /* WhatPhotoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0030B0A419BC1BA30000CBC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				002F2C7F19BD977700416F0C /* CoreImage.framework */,
+				0030B0A519BC1BA30000CBC4 /* Foundation.framework */,
+				0030B0A719BC1BA30000CBC4 /* CoreGraphics.framework */,
+				0030B0A919BC1BA40000CBC4 /* UIKit.framework */,
+				0030B0AB19BC1BA40000CBC4 /* CoreData.framework */,
+				0030B0C319BC1BA40000CBC4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0030B0AD19BC1BA40000CBC4 /* WhatPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				002F2C6E19BD4B0600416F0C /* UIEx */,
+				002F2C6819BD4ACB00416F0C /* ViewControllers */,
+				0030B0B619BC1BA40000CBC4 /* WhatPhotoDelegate.h */,
+				0030B0B719BC1BA40000CBC4 /* WhatPhotoDelegate.m */,
+				0030B0BC19BC1BA40000CBC4 /* Images.xcassets */,
+				0030B0B919BC1BA40000CBC4 /* WhatPhoto.xcdatamodeld */,
+				0030B0AE19BC1BA40000CBC4 /* Supporting Files */,
+			);
+			path = WhatPhoto;
+			sourceTree = "<group>";
+		};
+		0030B0AE19BC1BA40000CBC4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0030B0AF19BC1BA40000CBC4 /* WhatPhoto-Info.plist */,
+				0030B0B019BC1BA40000CBC4 /* InfoPlist.strings */,
+				0030B0B319BC1BA40000CBC4 /* main.m */,
+				0030B0B519BC1BA40000CBC4 /* WhatPhoto-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0030B0CA19BC1BA40000CBC4 /* WhatPhotoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0030B0D019BC1BA40000CBC4 /* WhatPhotoTests.m */,
+				0030B0CB19BC1BA40000CBC4 /* Supporting Files */,
+			);
+			path = WhatPhotoTests;
+			sourceTree = "<group>";
+		};
+		0030B0CB19BC1BA40000CBC4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0030B0CC19BC1BA40000CBC4 /* WhatPhotoTests-Info.plist */,
+				0030B0CD19BC1BA40000CBC4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0030B0A119BC1BA30000CBC4 /* WhatPhoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0030B0D419BC1BA40000CBC4 /* Build configuration list for PBXNativeTarget "WhatPhoto" */;
+			buildPhases = (
+				0030B09E19BC1BA30000CBC4 /* Sources */,
+				0030B09F19BC1BA30000CBC4 /* Frameworks */,
+				0030B0A019BC1BA30000CBC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhatPhoto;
+			productName = WhatPhoto;
+			productReference = 0030B0A219BC1BA30000CBC4 /* WhatPhoto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0030B0C119BC1BA40000CBC4 /* WhatPhotoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0030B0D719BC1BA40000CBC4 /* Build configuration list for PBXNativeTarget "WhatPhotoTests" */;
+			buildPhases = (
+				0030B0BE19BC1BA40000CBC4 /* Sources */,
+				0030B0BF19BC1BA40000CBC4 /* Frameworks */,
+				0030B0C019BC1BA40000CBC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0030B0C919BC1BA40000CBC4 /* PBXTargetDependency */,
+			);
+			name = WhatPhotoTests;
+			productName = WhatPhotoTests;
+			productReference = 0030B0C219BC1BA40000CBC4 /* WhatPhotoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0030B09A19BC1BA30000CBC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					0030B0C119BC1BA40000CBC4 = {
+						TestTargetID = 0030B0A119BC1BA30000CBC4;
+					};
+				};
+			};
+			buildConfigurationList = 0030B09D19BC1BA30000CBC4 /* Build configuration list for PBXProject "WhatPhoto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0030B09919BC1BA30000CBC4;
+			productRefGroup = 0030B0A319BC1BA30000CBC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0030B0A119BC1BA30000CBC4 /* WhatPhoto */,
+				0030B0C119BC1BA40000CBC4 /* WhatPhotoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0030B0A019BC1BA30000CBC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0030B0B219BC1BA40000CBC4 /* InfoPlist.strings in Resources */,
+				002F2C6D19BD4ACB00416F0C /* MainMenuViewController.xib in Resources */,
+				002F2C7E19BD8DAD00416F0C /* PhotoEditingViewController.xib in Resources */,
+				0030B0BD19BC1BA40000CBC4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0030B0C019BC1BA40000CBC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0030B0CF19BC1BA40000CBC4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0030B09E19BC1BA30000CBC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002F2C7D19BD8DAD00416F0C /* PhotoEditingViewController.m in Sources */,
+				002F2C6C19BD4ACB00416F0C /* MainMenuViewController.m in Sources */,
+				0030B0BB19BC1BA40000CBC4 /* WhatPhoto.xcdatamodeld in Sources */,
+				0030B0B819BC1BA40000CBC4 /* WhatPhotoDelegate.m in Sources */,
+				0030B0B419BC1BA40000CBC4 /* main.m in Sources */,
+				002F2C7119BD4B4900416F0C /* UIView+RoundCorner.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0030B0BE19BC1BA40000CBC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0030B0D119BC1BA40000CBC4 /* WhatPhotoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0030B0C919BC1BA40000CBC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0030B0A119BC1BA30000CBC4 /* WhatPhoto */;
+			targetProxy = 0030B0C819BC1BA40000CBC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0030B0B019BC1BA40000CBC4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0030B0B119BC1BA40000CBC4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0030B0CD19BC1BA40000CBC4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0030B0CE19BC1BA40000CBC4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0030B0D219BC1BA40000CBC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0030B0D319BC1BA40000CBC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0030B0D519BC1BA40000CBC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WhatPhoto/WhatPhoto-Prefix.pch";
+				INFOPLIST_FILE = "WhatPhoto/WhatPhoto-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0030B0D619BC1BA40000CBC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WhatPhoto/WhatPhoto-Prefix.pch";
+				INFOPLIST_FILE = "WhatPhoto/WhatPhoto-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0030B0D819BC1BA40000CBC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WhatPhoto.app/WhatPhoto";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WhatPhoto/WhatPhoto-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WhatPhotoTests/WhatPhotoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0030B0D919BC1BA40000CBC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WhatPhoto.app/WhatPhoto";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WhatPhoto/WhatPhoto-Prefix.pch";
+				INFOPLIST_FILE = "WhatPhotoTests/WhatPhotoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0030B09D19BC1BA30000CBC4 /* Build configuration list for PBXProject "WhatPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0030B0D219BC1BA40000CBC4 /* Debug */,
+				0030B0D319BC1BA40000CBC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0030B0D419BC1BA40000CBC4 /* Build configuration list for PBXNativeTarget "WhatPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0030B0D519BC1BA40000CBC4 /* Debug */,
+				0030B0D619BC1BA40000CBC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0030B0D719BC1BA40000CBC4 /* Build configuration list for PBXNativeTarget "WhatPhotoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0030B0D819BC1BA40000CBC4 /* Debug */,
+				0030B0D919BC1BA40000CBC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0030B0B919BC1BA40000CBC4 /* WhatPhoto.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0030B0BA19BC1BA40000CBC4 /* WhatPhoto.xcdatamodel */,
+			);
+			currentVersion = 0030B0BA19BC1BA40000CBC4 /* WhatPhoto.xcdatamodel */;
+			path = WhatPhoto.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0030B09A19BC1BA30000CBC4 /* Project object */;
+}
