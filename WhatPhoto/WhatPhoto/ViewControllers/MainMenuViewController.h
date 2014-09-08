@@ -7,8 +7,21 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CustomAlertView.h"
+#import "UIButton+Badge.h"
+@class CustomAlertView;
 
 @interface MainMenuViewController : UIViewController<UINavigationControllerDelegate, UIImagePickerControllerDelegate>
+{
+    NSMutableArray *imageArray;
+    
+    IBOutlet UIView *flashView;
+    IBOutlet UIView *modeView;
+    IBOutlet UIScrollView *scrollView;
+    
+    BOOL singleMode;    //单张拍摄
+    CustomAlertView *alertView;
+}
 
 @property (nonatomic, strong) IBOutlet UIButton *btnTakePhoto;
 @property (nonatomic, strong) IBOutlet UIButton *btnBeautify;
