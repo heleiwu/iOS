@@ -360,4 +360,17 @@
     //    [alertView show];
 }
 
+
+
+- (void)changeCameraDevice:(id)sender
+{
+    if (self.imagePickerController.cameraDevice == UIImagePickerControllerCameraDeviceRear) {
+        if ([UIImagePickerController isCameraDeviceAvailable:UIImagePickerControllerCameraDeviceFront]) {
+            self.imagePickerController.cameraDevice = UIImagePickerControllerCameraDeviceFront;
+        }
+    }
+    else {
+        self.imagePickerController.cameraDevice = UIImagePickerControllerCameraDeviceRear;
+    }
+}
 @end
